@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-13T16:19:24Z" name="Group of group Suite" finished-at="2021-02-13T16:19:24Z" duration-ms="59">
+    <groups>
+      <group name="include-test-one">
+        <method signature="RegularExpressionGroupTest.testMethodOne()[pri:0, instance:drupal.RegularExpressionGroupTest@10a035a0]" name="testMethodOne" class="drupal.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-one -->
+      <group name="include-test-two">
+        <method signature="RegularExpressionGroupTest.testMethodTwo()[pri:0, instance:drupal.RegularExpressionGroupTest@10a035a0]" name="testMethodTwo" class="drupal.RegularExpressionGroupTest"/>
+      </group> <!-- include-test-two -->
+    </groups>
+    <test started-at="2021-02-13T16:19:24Z" name="Group of group Test" finished-at="2021-02-13T16:19:24Z" duration-ms="59">
+      <class name="drupal.RegularExpressionGroupTest">
+        <test-method signature="testMethodOne()[pri:0, instance:drupal.RegularExpressionGroupTest@10a035a0]" started-at="2021-02-13T16:19:24Z" name="testMethodOne" finished-at="2021-02-13T16:19:24Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodTwo()[pri:0, instance:drupal.RegularExpressionGroupTest@10a035a0]" started-at="2021-02-13T16:19:24Z" name="testMethodTwo" finished-at="2021-02-13T16:19:24Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- drupal.RegularExpressionGroupTest -->
+    </test> <!-- Group of group Test -->
+  </suite> <!-- Group of group Suite -->
+  <suite started-at="2021-02-13T16:19:24Z" name="Parallel tests" finished-at="2021-02-13T16:19:28Z" duration-ms="3751">
+    <groups>
+    </groups>
+    <test started-at="2021-02-13T16:19:24Z" name="Test One" finished-at="2021-02-13T16:19:28Z" duration-ms="3736">
+      <class name="drupal.ParallelSuiteTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:drupal.ParallelSuiteTest@5427c60c]" started-at="2021-02-13T16:19:24Z" name="beforeClass" finished-at="2021-02-13T16:19:28Z" duration-ms="3588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="comparePageTitle()[pri:0, instance:drupal.ParallelSuiteTest@5427c60c]" started-at="2021-02-13T16:19:28Z" name="comparePageTitle" finished-at="2021-02-13T16:19:28Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePageTitle -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:drupal.ParallelSuiteTest@5427c60c]" started-at="2021-02-13T16:19:28Z" name="afterClass" finished-at="2021-02-13T16:19:28Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- drupal.ParallelSuiteTest -->
+    </test> <!-- Test One -->
+    <test started-at="2021-02-13T16:19:24Z" name="Test Two" finished-at="2021-02-13T16:19:28Z" duration-ms="3746">
+      <class name="drupal.ParallelSuiteTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:drupal.ParallelSuiteTest@69379752]" started-at="2021-02-13T16:19:24Z" name="beforeClass" finished-at="2021-02-13T16:19:28Z" duration-ms="3552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="comparePageTitle()[pri:0, instance:drupal.ParallelSuiteTest@69379752]" started-at="2021-02-13T16:19:28Z" name="comparePageTitle" finished-at="2021-02-13T16:19:28Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparePageTitle -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:drupal.ParallelSuiteTest@69379752]" started-at="2021-02-13T16:19:28Z" name="afterClass" finished-at="2021-02-13T16:19:28Z" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- drupal.ParallelSuiteTest -->
+    </test> <!-- Test Two -->
+  </suite> <!-- Parallel tests -->
+</testng-results>
