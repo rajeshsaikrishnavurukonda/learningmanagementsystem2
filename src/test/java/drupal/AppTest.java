@@ -12,7 +12,7 @@ public class AppTest {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver","/usr/bin/chromedriver");
 		WebDriver Driver = new ChromeDriver();
-		Driver.get("https://www.google.com");
+		Driver.get("https://www.facebook.com");
 		Driver.switchTo().frame(Driver.findElement(By.xpath("/xxhtml/body/div/div[4]/div[3]/div/div[2]/span/div/div/iframe")));
 		Driver.findElement(By.xpath("/html/body/div/c-wiz/div[2]/div/div/div/div/div[2]/form/div/span/span")).click();
 		Driver.findElement(By.xpath("/html/body/div/div[2]/form/div[2]/div[1]/div[1]/div/div[2]/input")).sendKeys("performance testing");
